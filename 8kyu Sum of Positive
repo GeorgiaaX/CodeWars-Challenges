@@ -1,0 +1,8 @@
+//You get an array of numbers, return the sum of all of the positives ones.
+
+//Answer: filter array and reduce
+
+function positiveSum(arr) {
+   let positiveArr = arr.filter(x => x > 0)
+   return positiveArr.reduce((acc, c) => acc + c, 0)
+}
