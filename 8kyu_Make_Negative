@@ -1,0 +1,30 @@
+//In this assignment you are given a number and have to make it negative. 
+
+//PREP
+
+//P: num, +, -, floats
+//R: negative or zero
+//E:
+
+//makeNegative(1); return -1
+//makeNegative(5); return -5
+//makeNegative(0); return 0
+//makeNegative(0.12); return -0.12
+
+//Answer:
+
+function makeNegative(num){
+   //conditionals 
+   if(num < 0){
+      console.log(num)
+   }else if (num > 0){
+      console.log(-1 * num)
+   }else {
+      console.log(0)
+   }
+}
+
+makeNegative(1)
+makeNegative(5)
+makeNegative(0)
+makeNegative(0.12)
