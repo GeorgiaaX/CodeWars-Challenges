@@ -1,0 +1,32 @@
+//Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+//PREP:
+
+//P: Boolean Value
+//R: String Yes for true or String No for false
+//E:
+
+//true = "Yes"
+//false = "No"
+
+//Answer
+
+function boolToWord( bool ){
+  //conditionals
+  if(bool === true){
+   return "Yes"
+  } else {
+   return "No"
+  }
+}
+
+console.log(boolToWord(true))
+console.log(boolToWord(false))
+
+
+
+//OR using conditional ternary operator
+
+function boolToWord(bool){
+   return bool ? "Yes" : "No"
+}
