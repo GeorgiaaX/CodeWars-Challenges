@@ -1,0 +1,24 @@
+//Complete the solution so that it reverses the string passed into it.
+
+//PREP
+
+//P: strings
+//R: reversed string
+//E:
+
+//"world" => "dlrow"
+//"apple" => "elppa"
+
+//Answer
+
+function returnReverse(str){
+   //turn into an array
+   //reverse array
+   //return string
+   let arr = str.split("")
+   let reverseArr = arr.reverse()
+   return reverseArr.join("")
+}
+
+console.log(returnReverse("world"))
+console.log(returnReverse("apple"))
