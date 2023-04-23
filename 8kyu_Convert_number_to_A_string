@@ -1,0 +1,22 @@
+
+//We need a function that can transform a number (integer) into a string.
+
+//PREP
+
+//P: integers
+//R: string
+//E: 
+
+//123  -->  return"123"
+//999  --> return "999"
+//-100 -->  return "-100"
+
+//Answer
+
+function numberToString(num){
+   return num.toString()
+}
+
+console.log(numberToString(123))
+console.log(numberToString(999))
+console.log(numberToString(-100))
