@@ -1,0 +1,22 @@
+//Given an integer or a floating-point number, find its opposite.
+
+//PREP:
+
+//P: interger, float
+//R: return opposite positive or negative value
+//E: 
+
+//1: return -1
+//14: return -14
+//-34: return 34
+
+
+//Answer:
+
+function opposite(number){
+   return number * -1
+}
+
+console.log(opposite(1))
+console.log(opposite(-34))
+console.log(opposite(14))
