@@ -1,0 +1,20 @@
+//Write a function that accepts an integer n and a string s as parameters, and returns a string of s repeated exactly n times.
+
+//PREP
+
+//P: string, number
+//R: returns a string, number amount of times
+//E:
+
+//6, "I"     ->  return "IIIIII"
+//5, "Hello" ->  return "HelloHelloHelloHelloHello"
+
+
+//Answer:
+
+ function repeatStr(n, s) {
+   return s.repeat(n)
+ }
+
+ console.log(repeatStr(6, "I"))
+ console.log(repeatStr(5, "Hello"))
