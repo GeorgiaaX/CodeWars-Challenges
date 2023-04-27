@@ -1,0 +1,21 @@
+//Complete the square sum function so that it squares each number passed into it and then sums the results together.
+
+//PREP
+
+//P: number
+//R: squares and sums numbers in array
+//E:
+
+//[1, 2, 2] => return 9
+//[2, 3, 4] => return 29
+//[-2, -3, -4] => return 29
+
+//Answer:
+
+function squareSum(numbers){
+   return numbers.reduce((acc, c) => acc + Math.pow(c, 2), 0)
+}
+
+console.log(squareSum([1, 2, 2]))
+console.log(squareSum([2, 3, 4]))
+console.log(squareSum([-2, -3, -4]))
