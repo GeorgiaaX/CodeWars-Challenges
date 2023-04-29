@@ -1,0 +1,22 @@
+//Write a function that removes the spaces from the string, then return the resultant string.
+
+//PREP:
+
+//P: string
+//R: returns a version of the string with with spaces removed
+//E:
+
+//"Hello World!" => returns "HelloWorld!"
+//" Lions And Tigers And Bears " => "LionsAndTigersAndBears"
+
+
+
+//Answer:
+
+function noSpace(str){
+    return str.replaceAll(" ", "")
+  }
+  
+
+  console.log(noSpace("Hello World!"))
+  console.log(noSpace(" Lions And Tigers And Bears"))
