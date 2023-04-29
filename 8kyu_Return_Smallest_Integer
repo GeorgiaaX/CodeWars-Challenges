@@ -1,0 +1,35 @@
+//Given an array of integers your solution should find the smallest integer.
+
+//PREP
+
+//P: array of integers
+//R: smallest integer
+//E: 
+
+//[34, 15, 88, 2] => return 2
+//[34, -345, -1, 100] => return -345
+
+//Answer:
+
+class SmallestIntegerFinder {
+  //create constructor
+  constructor(array){
+    this.array = array
+  }
+
+  findSmallestInt() {
+    //reduce array
+    return this.array.reduce((smallest, current) => {
+      //use ternary opperator
+      return current < smallest ? current : smallest
+    })
+  }
+}
+
+
+let firstArray = new SmallestIntegerFinder([34, 15, 88, 2])
+let secondArray = new SmallestIntegerFinder([34, -345, -1, 100])
+
+console.log(firstArray.findSmallestInt())
+console.log(secondArray.findSmallestInt())
+
