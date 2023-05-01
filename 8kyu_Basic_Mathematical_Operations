@@ -1,0 +1,36 @@
+//Your task is to create a function that does four basic mathematical operations.
+//The function should take three arguments - operation(string/char), value1(number), value2(number).
+//The function should return result of numbers after applying the chosen operation.
+
+//PREP
+
+//P: an operation as a string and two numbers
+//R: the result of the operation applied to the two numbers
+//E:
+
+//('+', 4, 7) -->  return 11
+//('-', 15, 18) -->  return -3
+//('*', 5, 5) --> return 25
+//('/', 49, 7) --> return 7
+
+//Answer
+
+function basicOP(operation, value1, value2){
+    //use switch statement
+    switch(operation) {
+        case "+" :
+            return value1 + value2;
+            break;
+        case "-":
+            return value1 - value2;
+            break;
+        case "*":
+            return value1 * value2;
+            break;
+        case "/":
+            return value1 / value2;
+            break;
+        default:
+            console.log("Not a mathmatical operation")
+    }
+}
