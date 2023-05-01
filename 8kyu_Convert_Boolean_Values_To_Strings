@@ -24,7 +24,6 @@ console.log(boolToWord(true))
 console.log(boolToWord(false))
 
 
-
 //OR using conditional ternary operator
 
 function boolToWord(bool){
