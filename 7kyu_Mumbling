@@ -1,0 +1,23 @@
+//Take a word and return a string that contains the letter reoccuring the amount they are positioned within the word.
+
+//P: string
+//R: string that reoccurs each letter by their position
+//E:
+
+//("abcd") -> "A-Bb-Ccc-Dddd"
+//("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+//("cwAt") -> "C-Ww-Aaa-Tttt"
+
+//Answer:
+
+function accum(word){
+   let letterArr = word.split("")
+   .map((x, i) => x.toUpperCase() + x.toLowerCase().repeat(i))
+   .join("-")
+   return letterArr
+}
+
+
+console.log(accum("abcd"))
+console.log(accum("RqaEzty"))
+console.log(accum(("cwAt")))
