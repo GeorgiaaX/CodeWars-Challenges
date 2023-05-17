@@ -1,0 +1,33 @@
+//PREP
+
+//P: string
+//R: a boolean value. if there is the same amount of 'x' and 'o' in the string it returns true, else false. 
+//E:
+
+//Check to see if a string has the same amount of 'x's and 'o's. The method must return a boolean and be case insensitive. The string can contain any char.
+
+// 'xoxo' => return true
+// 'xxxo' => return false
+// 'mnmnmnmn' => return true
+
+
+//Answer
+
+function XO(str){
+    let numX = 0
+    let numO = 0
+    str = str.toLowerCase()
+    for(let i = 0; i < str.length; i++){
+        if(str[i] === "x"){
+            numX++
+        } else if (str[i] === "o"){
+            numO++
+        } 
+    }
+
+    return numX === numO
+}
+
+console.log(XO('xoXo'))
+console.log(XO('xxxo'))
+console.log(XO('mnmnmnmn'))
