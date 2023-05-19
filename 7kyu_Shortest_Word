@@ -1,0 +1,19 @@
+//Simple, given a string of words, return the length of the shortest word(s).String will never be empty and you do not need to account for different data types.
+
+//PREP
+//P: string
+//R: return shortest word in string
+//E: 
+
+//Will bitcoin take over the world maybe who knows perhaps => return 3
+//turns out random test cases are easier than writing out basic ones => returns 3
+//Let's travel abroad shall we => returns 2
+
+
+function findShort(str){
+    return Math.min(...str.split(" ").map(word => word.length))
+}
+
+console.log(findShort("Will bitcoin take over the world maybe who knows perhaps"))
+console.log(findShort("turns out random test cases are easier than writing out basic ones"))
+console.log(findShort("Let's travel abroad shall we"))
