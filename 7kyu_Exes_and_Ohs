@@ -10,7 +10,6 @@
 // 'xxxo' => return false
 // 'mnmnmnmn' => return true
 
-
 //Answer
 
 function XO(str){
