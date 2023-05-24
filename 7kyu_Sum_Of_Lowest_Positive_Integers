@@ -1,0 +1,23 @@
+//Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+//PREP
+
+//P: numbers
+//R: sum of the two lowest positive numbers
+//E:
+
+//[1, 2, 3, 4, 5] => return 3
+//[8, -6, 4, -2] => return 12
+//[100, 50, 300, 25] => return 75
+
+//Answer
+
+function sumOfLowest(numbers){
+    let arr = numbers.filter(x => x > 0).sort((a, b) => a - b)
+    console.log(arr)
+    return arr[0] + arr[1]
+}
+
+console.log(sumOfLowest([1, 2, 3, 4, 5]))
+console.log(sumOfLowest([8, -6, 4, -2]))
+console.log(sumOfLowest([100, 50, 300, 25]))
