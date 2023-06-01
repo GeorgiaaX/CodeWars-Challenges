@@ -1,0 +1,12 @@
+//Complete the function that accepts a string parameter, and reverses each word in the string. All spaces in the string should be retained.
+
+
+function reverseWords(str){
+    let reverseArr = str.split(" ")
+    let reverseStr = reverseArr.map((word) => word.split("").reverse().join("")).join(" ")
+   return reverseStr
+}
+
+
+console.log(reverseWords("This is an example!"))
+console.log(reverseWords("Hello World!"))
