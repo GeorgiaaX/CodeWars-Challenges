@@ -5,6 +5,8 @@
 //P string, string
 //R: boolean 
 
+//Answer:
+
 function solution(str, ending) {
     let strToArr = str.split("").slice(-ending.length);
     let newArr = [];
