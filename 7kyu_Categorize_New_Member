@@ -19,7 +19,7 @@
 //[[45, 12],[55,21],[19, -2],[104, 20]] => return ["Open", "Senior", "Open", "Senior"]
 //[[3, 12],[55,1],[91, -2],[53, 23]] => return ["Open", "Open", "Open", "Senior"]
 
-//Answer
+//Answer:
 
 function openOrSenior(data){
     let membership = []
