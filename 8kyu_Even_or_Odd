@@ -3,7 +3,6 @@
 
 //Answer: Check if Interger is even
 
-
 function evenOrOdd(number) {
 
     if(number % 2 === 0){
