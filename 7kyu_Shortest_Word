@@ -9,7 +9,7 @@
 //turns out random test cases are easier than writing out basic ones => returns 3
 //Let's travel abroad shall we => returns 2
 
-//Answer 
+//Answer:
 
 function findShort(str){
     return Math.min(...str.split(" ").map(word => word.length))
