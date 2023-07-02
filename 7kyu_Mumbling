@@ -17,7 +17,6 @@ function accum(word){
    return letterArr
 }
 
-
 console.log(accum("abcd"))
 console.log(accum("RqaEzty"))
 console.log(accum(("cwAt")))
