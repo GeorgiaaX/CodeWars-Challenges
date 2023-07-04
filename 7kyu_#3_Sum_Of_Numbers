@@ -11,7 +11,7 @@
 //6, 271 => return 36841
 
 
-//Answer
+//Answer:
 
 function getSum(a, b) {
     let arr = [a , b]
