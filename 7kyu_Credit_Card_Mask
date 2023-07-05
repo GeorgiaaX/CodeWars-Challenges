@@ -14,7 +14,7 @@
 //"" => ""
 //"Skippy" => return "##ippy"
 
-//Answer
+//Answer:
 
 function maskify(cc) {
     let maskedStr1 = cc.split("").slice(0, -4).map(x => "#").join("")
