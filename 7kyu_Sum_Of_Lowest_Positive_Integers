@@ -10,7 +10,7 @@
 //[8, -6, 4, -2] => return 12
 //[100, 50, 300, 25] => return 75
 
-//Answer
+//Answer:
 
 function sumOfLowest(numbers){
     let arr = numbers.filter(x => x > 0).sort((a, b) => a - b)
