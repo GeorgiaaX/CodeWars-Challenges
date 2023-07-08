@@ -9,7 +9,7 @@
 //Hello World => return 3
 
 
-//Answer
+//Answer:
 
 function getCount(str){
     let vowelNum = 0
