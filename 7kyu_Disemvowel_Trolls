@@ -6,7 +6,6 @@
 
 //Hello, How are you today? => return "hll, hw r y tdy?"
 
-
 //Answer:
 
 function disemvowel(str) {
