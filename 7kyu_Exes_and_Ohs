@@ -10,7 +10,7 @@
 // 'xxxo' => return false
 // 'mnmnmnmn' => return true
 
-//Answer
+//Answer:
 
 function XO(str){
     let numX = 0
