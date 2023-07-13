@@ -12,7 +12,7 @@
 //"Dermatoglyphics" => return true
 //"Hello" => return false
 
-//Answer
+//Answer:
 
 function isIsogram(str){
     let queryIsogram = str.toLowerCase().split("")
