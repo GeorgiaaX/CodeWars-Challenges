@@ -8,7 +8,6 @@
 //abracadabra => return 5
 //Hello World => return 3
 
-
 //Answer:
 
 function getCount(str){
