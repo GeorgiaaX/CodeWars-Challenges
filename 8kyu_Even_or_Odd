@@ -12,3 +12,21 @@ function evenOrOdd(number) {
     }
     
   }
+
+
+Refactored Code
+
+//Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers
+
+//PREP
+
+//P: Integer
+//R: returns even for even numbers, odd for odd numbers
+//E:
+
+//8 => "Even",
+//333 => "Odd"
+
+//Answer:
+
+let evenOrOdd = number => (number % 2 === 0) ? "Even" : "Odd"
