@@ -10,7 +10,6 @@
 //-1, -5 => return -15
 //6, 271 => return 36841
 
-
 //Answer:
 
 function getSum(a, b) {
